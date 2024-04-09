@@ -1,1 +1,1 @@
-print("Bye!")
+print("Template generated successfully, see you next time!")
