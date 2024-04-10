@@ -30,6 +30,24 @@ If Cookiecutter was installed correctly, the command line will prompt you for so
   - **python_version**: By default, Python 3.10.
   - **project_packages** : Choose between “All” or “Minimal.”
 
+  As a result, you will have a project template with the following folders:
+
+  - Data
+  - Notebooks
+  - Reports
+  - figures
+  - Src
+
+Additionally, the template will automatically generate the following files:
+
+  - README.md: This file will contain the information you provided during setup.
+  - requirements.txt : This file is a simple text file that lists all the dependencies (libraries or packages) your project requires.
+  
+    For installing the packages automatically you can run the next command :
+
+        pip install -r requirements.txt
+   
+
 
 ## Authors
   - **Yeimmy Morales** 
